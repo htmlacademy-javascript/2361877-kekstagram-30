@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
-* Студент: [Юлия Прохорова](https://up.htmlacademy.ru/javascript/30/user/2361877).
-* Наставник: `Неизвестно`.
+- Студент: [Юлия Прохорова](https://up.htmlacademy.ru/javascript/30/user/2361877).
+- Наставник: [Александр Конотоп](https://htmlacademy.ru/profile/sineway).
 
 ---
 
