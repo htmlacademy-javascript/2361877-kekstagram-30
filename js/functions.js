@@ -1,3 +1,9 @@
 const testFunction = (text, maxLength) => text.length <= maxLength;
 
-void (testFunction);
+const isPalindrome = (sequence) => {
+  const text = String(sequence).replaceAll(' ', '').toLowerCase();
+  const reversedText = text.split('').reverse().join('');
+  return text === reversedText;
+};
+
+void (testFunction, isPalindrome);
