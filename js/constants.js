@@ -1,4 +1,7 @@
 const COMMENTS_COUNTS_SHOW = 5;
+// добавлен лимит длины коммента
+const COMMENT_LIMIT = 140;
+// const COMMENT_LIMIT_MESSAGE = 'Слишком длинный комментарий';
 
 const MAX_HASHTAG_COUNT = 5;
 const VALID_SYMBOLS = /^#[a-zа-яё0-9]{1,19}$/i;
@@ -110,4 +113,4 @@ const FilterGroup = {
 
 const MAX_RANDOM_FILTER = 10;
 
-export { COMMENTS_COUNTS_SHOW, MAX_HASHTAG_COUNT, VALID_SYMBOLS, ErrorText, SubmitButtonCaption, Effect, effectToFilter, effectToSliderOptions, SCALE_STEP, MIN_SCALE, MAX_SCALE, DEFAULT_SCALE, REMOVE_MESSAGE_TIMEOUT, SERVER_URL, ServerRoute, HttpMethod, ErrorData, FilterGroup, MAX_RANDOM_FILTER, FILE_TYPES };
+export { COMMENTS_COUNTS_SHOW, COMMENT_LIMIT, MAX_HASHTAG_COUNT, VALID_SYMBOLS, ErrorText, SubmitButtonCaption, Effect, effectToFilter, effectToSliderOptions, SCALE_STEP, MIN_SCALE, MAX_SCALE, DEFAULT_SCALE, REMOVE_MESSAGE_TIMEOUT, SERVER_URL, ServerRoute, HttpMethod, ErrorData, FilterGroup, MAX_RANDOM_FILTER, FILE_TYPES };

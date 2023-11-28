@@ -141,11 +141,18 @@ pristine.addValidator(
   true
 );
 
-const initUploadPhoto = () => {
+// проверяет длину коммента
+pristine.addValidator(
+  commentInput,
+  (value) => value.length <= 140,
+  'Слишком длинный комментарий'
+);
+
+function initUploadPhoto() {
   fileInput.addEventListener('change', onFileInputChange);
   cancelForm.addEventListener('click', onCancelButtonClick);
   uploadForm.addEventListener('submit', onFormSubmit);
   initEffect();
-};
+}
 
 export { initUploadPhoto };
